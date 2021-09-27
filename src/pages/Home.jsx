@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../components/Banner";
 // import Announcement from "../components/Announcement";
 // import Categories from "../components/Categories";
 import Footer from "../components/Footer";
@@ -12,11 +13,13 @@ const Home = () => {
     <div>
       {/* <Announcement /> */}
       <Navbar />
-      {/* <Slider /> */}
       {/* <Categories /> */}
       {/* <Products/> */}
       {/* <Newsletter/> */}
-      <div className="h-screen bg-white mt-44">HOME</div>
+      <div className="flex justify-center mx-28 h-screen bg-white mt-44">
+        {/* Banner*/}
+        <Banner />
+      </div>
       <Footer />
     </div>
   );
