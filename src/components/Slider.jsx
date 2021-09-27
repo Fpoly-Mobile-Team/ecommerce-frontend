@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data/slider-data";
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 
 const Arrow = styled.div`
   width: 50px;
@@ -40,7 +39,7 @@ const Slider = () => {
   return (
     <div className="flex relative overflow-hidden h-full">
       <Arrow direction="left" onClick={() => handleClick("left")}>
-        <ArrowLeftOutlined />
+        Left
       </Arrow>
       <Wrapper
         className="h-full flex transition-all duration-1000 ease-out"
@@ -55,7 +54,7 @@ const Slider = () => {
         ))}
       </Wrapper>
       <Arrow direction="right" onClick={() => handleClick("right")}>
-        <ArrowRightOutlined />
+        Right
       </Arrow>
     </div>
   );
