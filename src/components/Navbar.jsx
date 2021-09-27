@@ -19,7 +19,9 @@ const Navbar = () => {
         <nav className="menu-top-left w-1/3">
           <ul className="flex items-center justify-evenly">
             <li>Channel Seller</li>
-            <li>Become Seller</li>
+            <li>
+              <Link to="/sign-up-seller">Become Seller</Link>
+            </li>
             <li>Get the App</li>
             <li>
               <AiFillFacebook className="rounded-lg" />
