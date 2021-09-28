@@ -18,7 +18,9 @@ const Navbar = () => {
         {/* Top-Left */}
         <nav className="menu-top-left w-1/3">
           <ul className="flex items-center justify-evenly">
-            <li>Channel Seller</li>
+            <li>
+              <a href="http://localhost:4000/login">Channel Seller</a>
+            </li>
             <li>
               <Link to="/sign-up-seller">Become Seller</Link>
             </li>
