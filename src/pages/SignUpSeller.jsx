@@ -17,7 +17,7 @@ const SignUpSeller = () => {
             Air - Kênh Người bán
           </p>
           <img
-            src="https://deo.shopeemobile.com/shopee/shopee-seller-live-sg/rootpages/static/modules/account/image/login-img.9347138.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/2560px-Shopee.svg.png"
             alt=""
           />
         </div>
@@ -42,7 +42,7 @@ const SignUpSeller = () => {
               placeholder="Nhap password..."
             />
             <button className="w-full m-2 p-3 bg-main text-white rounded">
-              Dang Ky
+              <a href="http://localhost:4000/login">Dang Ky</a>
             </button>
           </div>
         </div>
