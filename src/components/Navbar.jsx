@@ -74,7 +74,9 @@ const Navbar = () => {
         </div>
         <div className="cart w-1/4 flex justify-center">
           <button className="btn-search-main p-0.5 w-2/12 text-main">
-            <FaShoppingCart className="fill-current w-full h-6" />
+            <Link to="/cart">
+              <FaShoppingCart className="fill-current w-full h-6" />
+            </Link>
           </button>
         </div>
       </div>

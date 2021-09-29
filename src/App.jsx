@@ -4,6 +4,7 @@ import LocalBrand from "./pages/LocalBrand";
 import ForeignBrand from "./pages/ForeignBrand";
 import SignUpSeller from "./pages/SignUpSeller";
 import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
         </Route>
         <Route path="/foreign-brand">
           <ForeignBrand />
+        </Route>
+        <Route path="/cart">
+          <Cart />
         </Route>
         <Route path="/">
           <Home />

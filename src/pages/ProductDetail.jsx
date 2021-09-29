@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Slider from "../components/Slider";
+
 
 const ProductDetail = () => {
   return (
@@ -13,6 +15,7 @@ const ProductDetail = () => {
             src="https://cf.shopee.vn/file/3131a60f9c8b1e0b0bb244e4bad379f2"
             alt=""
           />
+          <Slider/>
         </div>
 
         <div className="bg-cover w-2/3">
